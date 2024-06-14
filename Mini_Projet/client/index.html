@@ -1,36 +1,39 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiageGPT with Dall-E</title>
-    <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
-    <!--
-        <script src="js/testRequestDavinCi.js"></script>
-        -->
     <script type="module" src="js/sendRequestToServer.js"></script>
-
 </head>
 
 <body>
-    <section class="side-bar">
-        <button>New chat</button>
-        <div class="history"></div>
-        <nav>
-            <p>Made by HAS || DKH.</p>
-        </nav>
-    </section>
-    <section class="main">
+    <header>
         <h1>MiageGPT</h1>
-        <div id="output"></div>
-        <div class="bottom-section">
+    </header>
+    <main>
+        <section class="side-bar">
+            <button>New chat</button>
+            <div class="history">
+                <!-- Historique des chats -->
+            </div>
+            <nav>
+                <p>Made by HAS || DKH.</p>
+            </nav>
+        </section>
+        <section class="content">
+            <div id="output">
+                <!-- Contenu généré -->
+            </div>
             <div class="input-container">
-                <input>
+                <input type="text" placeholder="Type your message...">
                 <div id="submit">➢</div>
             </div>
-        </div>
-        <p class="info">Miage GPT ZAKARIA and ZOUHAIR</p>
-    </section>
-
+            <p class="info">Miage GPT ZAKARIA and ZOUHAIR</p>
+        </section>
+    </main>
 </body>
 
 </html>

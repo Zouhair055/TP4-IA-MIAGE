@@ -5,4 +5,3 @@
 // Sur mac/linux:
 // export OPENAI_API_KEY="votre_clé_api"
 // Sur windows:
-export const API_KEY = process.env.OPENAI_API_KEY;
