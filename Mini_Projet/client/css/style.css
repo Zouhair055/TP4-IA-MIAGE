@@ -88,3 +88,24 @@ nav {
     font-size: 12px;
     padding-top: 20px;
 }
+body::before {
+    content: 'MIAGE';
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: bold;
+    pointer-events: none;
+    z-index: 9999;
+    animation: colorChange 3s infinite alternate;
+}
+
+@keyframes colorChange {
+    20% {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        color: #673ab7; 
+    }
+}
