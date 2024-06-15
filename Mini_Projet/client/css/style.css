@@ -109,3 +109,61 @@ body::before {
         color: #673ab7; 
     }
 }
+.history p, .conversations p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.history p:hover, .conversations p:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.history button, .conversations button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* CSS pour les messages de l'utilisateur (prompts) */
+.message.user {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.message.user .bubble {
+    background-color: #d3d3d3;
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+}
+
+/* CSS pour les messages de l'IA (réponses) */
+.message.ai {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.message.ai .bubble {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+}
+
+/* Réponse audio ou image */
+.message.ai .media {
+    max-width: 256px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
