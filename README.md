@@ -17,31 +17,32 @@ Interface intuitive : Gestion de l'historique des conversations et des images g�
 Design adaptable : Expérience utilisateur optimale sur divers appareils et tailles d'écran.
 
 ## Structure du Projet
-    # HTML
+# HTML
 La structure de la page web avec des sections pour la barre latérale, le contenu principal et le pied de page.
 
-    # CSS
+# CSS
 Mise en page et style pour un alignement correct et une interface utilisateur agréable.
 
-    # JavaScript
+# JavaScript
 Envoi des requêtes au serveur, réception des réponses et mise à jour dynamique de l'interface.
 
-    # Utilisation
+## Utilisation
+
 # Cloner le dépôt :
-git clone https://github.com/Zouhair055/TP4-IA-MIAGE.git
+    # git clone https://github.com/Zouhair055/TP4-IA-MIAGE.git
 cd TP4-IA-MIAGE
 
 # Installer les dépendances (si nécessaire) :
-npm install
+    # npm install / go live
 
 # Lancer le serveur :
-npm start
+    # npm start / node server.js
 
 # Accéder à l'application :
-Ouvrez http://localhost:3000 dans votre navigateur.
+    # http://localhost:3000 dans votre navigateur.   
 
 ## Team Members
-Zouhair DKHISSI
-Zakaria HASSAD
-EL ALAMI EL FILALI Ayoub
-Nous sommes deux étudiants passionnés par l'intelligence artificielle et le développement web. Ce projet est le fruit de notre travail collaboratif.
+    ### Zouhair DKHISSI
+    ### Zakaria HASSAD
+    ### EL ALAMI EL FILALI Ayoub
+Nous sommes trois étudiants passionnés par l'intelligence artificielle et le développement web. Ce projet est le fruit de notre travail collaboratif.
