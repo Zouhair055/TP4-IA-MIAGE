@@ -43,4 +43,5 @@ Ouvrez http://localhost:3000 dans votre navigateur.
 ## Team Members
 Zouhair DKHISSI
 Zakaria HASSAD
+EL ALAMI EL FILALI Ayoub
 Nous sommes deux étudiants passionnés par l'intelligence artificielle et le développement web. Ce projet est le fruit de notre travail collaboratif.
